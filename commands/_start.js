@@ -16,3 +16,8 @@
 CMD*/
 const API_ID = '28494151'; // Reemplaza esto con tu API ID
 const API_HASH = 'ec36d21a3afd8a7e1a0223edf6d4555c'; // Reemplaza esto con tu API Hash
+
+const client = new TelegramClient(new StringSession(''), API_ID, API_HASH, { connection: 'tcp' });
+
+const GROUP_CHAT_ID = -1001192020135; // Reemplaza con el ID de tu grupo
+
