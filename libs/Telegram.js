@@ -1,3 +1,5 @@
+let libPrefix = 'Telegram_';
+
 const { Api } = require('telegram');
 
 async function getParticipants(client, chatId) {
